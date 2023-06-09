@@ -122,9 +122,9 @@ async def on_message(message):
     if '$md5' in str(message.content):
         p=str(message.content).split()
         md5=str(p[1])
+        await message.reply(f'**Scanning MD5 Hash (${md5})**')
         s=Engine.Engine.md5Scan(md5=md5)
         # md5, total, detected, fileType, fileSize, scanDate, scanUrl, cachedir, filename
-        await message.reply(f'**Scanning MD5 Hash for {message.author.mention}...**')
         embed = discord.Embed(title=f'MD5 Hash Scan', colour=discord.Colour.blue())
         embed.set_author(name=f"{md5}", url=f"{s[6]}", icon_url=f"{s[6]}")
         embed.set_thumbnail(url=f"{message.author.avatar}")
