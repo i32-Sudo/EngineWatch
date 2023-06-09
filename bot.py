@@ -43,8 +43,8 @@ exceptions = [
 
 
 class fData:
-    dtoken="MTExNjQwMTc5MTEzMTcxNzY1Mg.G-hcAX._RsLMxceOKNau86twYE5_MdAcO-nZHuv4tO6KQ"
-    virusTotal_APIKey="341c3b17fb148cb34bbedc0ca7e9e20102416d2ada6c2be61adcf720504e3be1"
+    dtoken="DISCORD-BOT-TOKEN"
+    virusTotal_APIKey="VIRUS-TOTAL-API-KEY"
 
 class Menu(discord.ui.View):
     @discord.ui.button(label="🧪 Detections", style=discord.ButtonStyle.green)
