@@ -9,7 +9,7 @@ as including Md5 Scanning and Hash Scanning.
 attatched file to a cache folder, Next it will get the Md5 Hash of the downloaded file and scan it using the VirusTotal Engine API.
 Next will it return the information needed through a JSON format which will be returned to the user.**
 
-![alt text](https://github.com/Zurek0x/EngineWatch/blob/main/media/sc1.png?raw=true)
+![alt text](https://github.com/i64-sudo/EngineWatch/blob/main/media/sc1.png?raw=true)
 
 # MD5 Scanning ($md5 HASH)
 **MD5 Scanning works the same as File Scanning in terms of the file scanning but skips the download and upload part,
@@ -17,11 +17,11 @@ If the user knows the Md5 Hash of the file they are trying to scan they can use 
 Hash you are trying to scan, Which will go through the same process as the File Scan and return the information needed in a JSON Format which will
 be returned to the user.**
 
-![alt text](https://github.com/Zurek0x/EngineWatch/blob/main/media/sc2.png?raw=true)
+![alt text](https://github.com/i64-sudo/EngineWatch/blob/main/media/sc2.png?raw=true)
 
 # Console Logs
 **Console Logs don't really matter all to much but give a LOG for all files detected, scanned, uploaded and more.**
-![alt text](https://github.com/Zurek0x/EngineWatch/blob/main/media/sc3.png?raw=true)
+![alt text](https://github.com/i64-sudo/EngineWatch/blob/main/media/sc3.png?raw=true)
 
 
 # Setup
