@@ -1,0 +1,5 @@
+discord
+requests
+colorama
+virustotal-api
+hashlib
