@@ -29,7 +29,7 @@ be returned to the user.**
 ```bash
 pip install -r requirements.txt
 ```
-**Edit bot.pu with your token & api key for virus total**
+**Edit bot.py with your token & api key for virus total**
 ```py
 class fData:
     dtoken="DISCORD-BOT-TOKEN"
